@@ -113,6 +113,3 @@ class TelegramBotView(generic.View):
         send_messages(message, TELEGRAM_TOKEN)
 
         return HttpResponse()
-
-
-## curl -F “url=1f5acd8b3fa0.ngrok.io/c817304a3d163ebd58b44dd446eba29572300724098cdbca1a/“ https://api.telegram.org/bot1790679333:AAEsU251DuNYRdJezJh-fEQSMvkp6FWgMB4/setWebhook

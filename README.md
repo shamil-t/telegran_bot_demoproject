@@ -84,3 +84,7 @@ You should now be able to talk to the bot and get responses from it
 ## Get the users lists 
 click here (https://localhost:8000)
 
+
+## Screen shots
+
+
