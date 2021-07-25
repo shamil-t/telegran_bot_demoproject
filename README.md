@@ -87,4 +87,10 @@ click here (https://localhost:8000)
 
 ## Screen shots
 
+Bot
 
+![Bot](https://github.com/shamil-t/telegran_bot_demoproject/blob/master/screenshots/Screenshot%20(203).png?raw=true)
+
+Users List
+
+![Users](https://github.com/shamil-t/telegran_bot_demoproject/blob/master/screenshots/Screenshot%20(204).png?raw=true)
