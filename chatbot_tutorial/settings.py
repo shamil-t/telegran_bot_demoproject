@@ -25,7 +25,7 @@ SECRET_KEY = 'r^3o#=8lu#*y66k7!a_4^82a#0n)kau%5!y2)!oxs40@tn@22-'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost','1f5acd8b3fa0.ngrok.io']
+ALLOWED_HOSTS = ['localhost','<ngrok_url>']
 
 
 # Application definition
@@ -84,9 +84,9 @@ WSGI_APPLICATION = 'chatbot_tutorial.wsgi.application'
 DATABASES = {
    'default': {
        'ENGINE': 'django.db.backends.postgresql',
-       'NAME': 'tbot',
-       'USER': 'postgres',
-       'PASSWORD': '123',
+       'NAME': '<Data base name>',
+       'USER': '<Postgres username>',
+       'PASSWORD': '<postgres password>',
        'HOST': 'localhost',
        'PORT': '5432',
    }

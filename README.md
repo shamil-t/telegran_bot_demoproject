@@ -8,7 +8,7 @@ This is a simple bot that says yo-mama jokes borrowing heavilly from https://git
 
 # Requirements
 
-- Python 2.7
+- Python 3.8
 - Make sure you have pip (pip --version)
 - pip install virtualenv to install virtual environment
 - Telegram messenger (you can also use the web version at web.telegram.org)
@@ -23,8 +23,8 @@ To get this running, you need the following. First install dependencies
 
 ### Step 0 : Clone the Repository
 
-`git clone https://github.com/vaisaghvt/django-bot-server-tutorial`
-`cd django-bot-server-tutorial`
+`git clone https://github.com/shamil-t/telegran_bot_demoproject.git`
+`cd telegran_bot_demoproject`
 
 ### Step 1 : Install dependencies
 
@@ -71,7 +71,16 @@ Alternatively, you can use some service like Postman or hurl.it just remember to
 
 You should get a response that states that "webhook has been set"
 
-### Step 7 : Talk to the bot
+### Step7 : Setup postgres 
+
+Download Postgres from (https://www.postgresql.org/download/)
+create a database
+edit settings.py
+
+### Step 8 : Talk to the bot
 
 You should now be able to talk to the bot and get responses from it
+
+## Get the users lists 
+click here [https://localhost:8000]
 
